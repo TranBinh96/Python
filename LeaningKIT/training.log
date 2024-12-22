@@ -97,3 +97,19 @@
 2024-12-22 00:21:02,862 - INFO - Continuing YOLO training from 'databaseKIT/best.pt'
 2024-12-22 00:21:57,061 - INFO - Best YOLO model successfully copied to 'databaseKIT/best.pt'
 2024-12-22 00:21:57,062 - INFO - Pipeline completed successfully.
+2024-12-22 10:36:04,227 - INFO - Starting pipeline...
+2024-12-22 10:36:04,266 - INFO - Loaded YOLO model from 'yolov8s.pt'
+2024-12-22 10:36:07,385 - INFO - Loaded classification model from 'classification_model.pth'
+2024-12-22 10:36:07,629 - ERROR - An error occurred: autocast.__init__() missing 1 required positional argument: 'device_type'
+2024-12-22 10:37:08,268 - INFO - Starting pipeline...
+2024-12-22 10:37:08,309 - INFO - Loaded YOLO model from 'yolov8s.pt'
+2024-12-22 10:37:08,671 - INFO - Loaded classification model from 'classification_model.pth'
+2024-12-22 10:37:08,951 - ERROR - An error occurred: autocast.__init__() missing 1 required positional argument: 'device_type'
+2024-12-22 10:37:31,241 - INFO - Starting pipeline...
+2024-12-22 10:37:31,279 - INFO - Loaded YOLO model from 'yolov8s.pt'
+2024-12-22 10:37:31,815 - INFO - Loaded classification model from 'classification_model.pth'
+2024-12-22 10:37:32,094 - ERROR - An error occurred: autocast.__init__() missing 1 required positional argument: 'device_type'
+2024-12-22 10:37:37,492 - INFO - Starting pipeline...
+2024-12-22 10:37:37,531 - INFO - Loaded YOLO model from 'yolov8s.pt'
+2024-12-22 10:37:37,883 - INFO - Loaded classification model from 'classification_model.pth'
+2024-12-22 10:37:38,135 - ERROR - An error occurred: autocast.__init__() missing 1 required positional argument: 'device_type'

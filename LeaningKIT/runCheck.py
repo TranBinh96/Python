@@ -37,7 +37,7 @@ def preprocess_image(image):
 model = YOLO('./databaseKIT/best.pt')  # Đảm bảo đường dẫn mô hình chính xác
 
 # Đường dẫn tới bức ảnh bạn muốn kiểm tra
-image_path = './dataset/processed_images/53_142913.jpg'
+image_path = './dataset/images/train/53_142913.jpg'
 
 # Đọc ảnh
 image = cv2.imread(image_path)
