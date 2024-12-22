@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-data "libs;libs" --hidden-import=json --hidden-import=xml.etree.ElementTree --hidden-import=lxml.etree labelImg.py

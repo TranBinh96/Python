@@ -183,7 +183,7 @@ class ComponentDetectionPipeline:
         model.train(
             data=data_yaml,
             epochs=epochs,
-            imgsz=960,
+            imgsz=640,
             save=True,
             project=project,
             name=name,
@@ -235,7 +235,7 @@ if __name__ == "__main__":
     data_yaml_path = "./dataset/data.yaml"
     pipeline.train_yolo_model(
         data_yaml=data_yaml_path,
-        epochs=20,
+        epochs=100,
         continue_training=False
     )
 
